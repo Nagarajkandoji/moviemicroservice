@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "seneca": "^3.28.0"
+  }
+}
