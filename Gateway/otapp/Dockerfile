@@ -3,5 +3,5 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
 COPY . .
-EXPOSE 9000
-CMD ["node", "Movie_service.js"]
+EXPOSE 3000
+CMD ["nodemon", "start"]
